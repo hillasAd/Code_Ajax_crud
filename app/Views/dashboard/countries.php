@@ -7,7 +7,7 @@
              <div class="card-header">List of Countries</div>
              <div class="card-body">
                 <table class="table table-hover" id="countries-table">
-                    <thead>
+                <thead class="thead-dark">
                          <th>#</th>
                          <th>Country name</th>
                          <th>Capital city</th>
