@@ -226,6 +226,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </p>
             </a>
           </li>
+
+          <li class="nav-item">
+            <a href="<?= route_to('products') ?>" class="nav-link <?= (current_url() == base_url('user/products')) ? 'active' : ''; ?>">
+              <i class="nav-icon fa fas-product-hunt"></i>
+              <p>
+                Products list
+              </p>
+            </a>
+          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
